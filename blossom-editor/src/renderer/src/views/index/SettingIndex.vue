@@ -1,17 +1,17 @@
 <template>
   <div class="setting-index-root">
     <el-tabs tab-position="left" class="setting-tabs" v-model="activeTab">
-      <el-tab-pane label="登录" name="login">
+      <el-tab-pane label="Login" name="login">
         <div class="setting-container">
           <div class="wrapper">
             <SettingLogin></SettingLogin>
           </div>
         </div>
       </el-tab-pane>
-      <el-tab-pane label="设置" name="setting">
+      <el-tab-pane label="Setting" name="setting">
         <SettingConfig></SettingConfig>
       </el-tab-pane>
-      <el-tab-pane label="关于" name="about">
+      <el-tab-pane label="About" name="about">
         <SettingAboutVue></SettingAboutVue>
       </el-tab-pane>
     </el-tabs>

@@ -15,7 +15,7 @@
           <div v-if="serverUrlIsInValid" class="server-url-invalid">
             <el-tooltip effect="light" placement="top">
               <template #content>
-                登录地址可能存在错误<br />地址中不应包含以下内容：
+                There may be something wrong in the login address<br />The address should not include the following content:
                 <li>/#/</li>
               </template>
               <svg style="height: 20px; width: 20px" aria-hidden="true">
@@ -60,7 +60,7 @@
         </div>
       </bl-col>
       <bl-row just="center" v-if="configStore.viewStyle.isShowTryuseBtn">
-        <span class="try-use" @click="showTryUse">我想试用!</span>
+        <span class="try-use" @click="showTryUse">I want to try it out!</span>
       </bl-row>
     </div>
   </div>

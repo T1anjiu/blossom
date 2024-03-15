@@ -89,8 +89,8 @@ watch(
 const toRoute = (menu: AsideMenu) => {
   if (menu.login && !isLogin()) {
     ElNotification.error({
-      title: '未登录',
-      message: `你的登录状态已失效, 请在左下角登录 ↙`,
+      title: 'You haven't logged in yet',
+      message: `Your login status has expired. Please log in at the bottom left corner ↙`,
       offset: 30,
       position: 'bottom-left'
     })
