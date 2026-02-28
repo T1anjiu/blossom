@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "blossom",
+  "outputfilename": "Blossom",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "T1anjiu",
+    "email": "84212214+T1anjiu@users.noreply.github.com"
+  }
+}
